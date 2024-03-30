@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(25, 25, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.layout{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.block{
+    background-color: rgb(35, 25, 25);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./media/background.png") ;
+    background-size: cover;
+    min-width: 300px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px 0px;
+    border: solid 2px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    transition: 100ms;
+    background-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+    backdrop-filter: blur(5px);
+    transition: 100ms;
+    scale: 105%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.layoutWrapp div:not(:hover) {
+    backdrop-filter: blur(2px);
+    scale: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: normal;
+}
+.logo{
+    width: 200px;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+.icon{
+    width: 40px;
+    align-self: center;
+}
