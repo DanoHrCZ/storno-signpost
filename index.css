@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     background-image: url("./media/background.png") ;
     background-size: cover;
-    min-width: 300px;
+    min-width: 150px;
 }
 .links{
     display: flex;
@@ -59,7 +59,7 @@ h1{
     width: 200px;
     border-radius: 50%;
     align-self: center;
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+    box-shadow: rgba(30, 0, 0, 0.6) 0px 5px 15px;
 }
 .icon{
     width: 40px;
